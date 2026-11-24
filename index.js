@@ -1,8 +1,9 @@
-let clicks = 0;
+var click = 0; 
+var count = document.getElementById("clicks");
 function displayClicks(){
-  document.getElementById("clicks").innerText = "Clicks: " + clicks;
+  count.innerHTML = click;
 }
 function click(){
-  clicks += 1;
-  displayClicks();
+  click += 1;
+  displayClicks()
 }
