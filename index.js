@@ -4,5 +4,5 @@ function displayClicks(){
 }
 function click(){
   clicks += 1;
-  displayClicks()
+  displayClicks();
 }
