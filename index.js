@@ -3,7 +3,7 @@ var count = document.getElementById("clicks");
 function displayClicks(){
   count.innerHTML = click;
 }
-function click(){
+function incrementClicks(){
   click += 1;
   displayClicks()
 }
