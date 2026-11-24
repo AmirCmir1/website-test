@@ -1,4 +1,4 @@
-clicks = 0;
+let clicks = 0;
 function displayClicks(){
   document.getElementById("clicks").innerText = "Clicks: " + clicks;
 }
